@@ -164,3 +164,65 @@ footer {
     color: white;
     padding: 10px 0;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 12px 20px;
+        font-size: 1.2em;
+        background: #005fa3;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .index-main .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .index-main .buttons a {
+        margin: 10px 0;
+    }
+
+    /* Adjusting form sections */
+    form {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header .subtitle {
+        font-size: 1em;
+    }
+
+    .button, .button-large {
+        font-size: 1em;
+        padding: 8px 15px;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+}
