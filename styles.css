@@ -44,7 +44,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.1em;
-    padding: 10px 20px;
+    padding: 12px 20px;
     background: #005fa3;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -181,11 +181,17 @@ footer {
     }
 
     nav ul li a {
-        padding: 12px 20px;
+        padding: 15px 25px; /* Bigger buttons on mobile */
         font-size: 1.2em;
         background: #005fa3;
         width: 100%;
         border-radius: 5px;
+    }
+
+    /* Ensure that the links look like buttons */
+    nav ul li a:hover {
+        background: #004380;
+        transform: scale(1.05);
     }
 
     .index-main .buttons {
